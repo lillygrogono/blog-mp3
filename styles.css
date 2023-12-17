@@ -1,0 +1,417 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600&family=Libre+Bodoni:wght@500&family=Outfit&family=Rampart+One&display=swap');  @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,500;1,700&display=swap');@import url('https://fonts.googleapis.com/css2?family=Modak&display=swap');
+
+        body {
+            font-family: 'Helvetica Neue', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: none;
+            color: #fff;
+            padding: 20px 10px;
+            display: flex;
+            align-items: center;
+        }
+
+        .logo {
+            display: none;
+        }
+        
+        .nav-logo-2{
+         max-width: 80px;
+         margin-right:50px;
+        
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: none;
+            padding: 0px;
+            background-color: none;
+            text-align: center;   
+            margin:auto;
+        }
+
+        nav a {
+            font-family:Outfit;
+            color: #4882D8;
+            text-decoration: none;
+            padding-left: 30px;
+            padding-right:30px;
+            padding-top:35px;
+            padding-bottom: 20px;
+            margin: 0 20px;
+            font-weight: bold;
+            text-transform: uppercase;
+            transition: background-color 0.3s ease;
+            font-size: 28px;
+        }
+
+        nav a:hover {
+            background-color:#FCE4EF;
+        }
+
+        .home{
+            font-family: Outfit;
+            font-style: normal;
+        }
+
+        .hero {
+            background-image: url(background.jpg);
+            background-size: cover;
+            background-position: center center;
+            color: #fff;
+            text-align: center;
+            padding: 100px 10px;
+        }
+
+        .hero h1 {
+            font-size: 3em;
+            font-family: EB Garamond;
+            font-style: italic;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .product {
+            display: flex;
+            flex-wrap: wrap;
+            padding: 0px 10px;
+        }
+
+        .product-1{
+        width: 300px;
+        height:300px;
+        max-height: 300px;
+        max-width: 300px;
+        }
+
+        .product div {
+            flex: 1;
+            margin: 0 10px;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+
+        footer {
+            font-family: Outfit;
+            font-size: 18px;
+            background-color: #4882D8;
+            color: #fff;
+            text-align: center;
+            padding: 20px 10px;
+        }
+
+
+/*stories landing page*/
+
+    .section-header{
+    padding: 20px;
+    margin-top: 0px;
+    }
+
+    h1{
+        padding:0px;
+        margin-left:20px;
+        font-family: outfit;
+        font-style: italic;
+        font-weight:400;
+        font-size:30px;
+    }
+
+    h2{
+        font-family: EB Garamond;
+        font-style: italic;
+        font-size: 26px;
+        font-weight: 500;
+    }
+
+    .two {
+    text-decoration: none;
+    color: black;
+    }
+
+    .two:hover {
+        color:#ffc0dc;
+        }
+
+/*individual story pages*/
+  
+ 
+    .container {
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    margin-top:30px;
+    }
+    .stories-header{
+    text-align: left;
+    margin-bottom: 10px;
+    margin-top: 0px;
+    font-family: EB Garamond;
+    font-style: normal;
+    font-size: 22px;
+    font-weight: 900;
+    }
+    .columns-stories{
+    column-count: 1;
+    column-gap: 15px;
+    margin-bottom: 20px;
+    }
+
+    .columns-stories p{
+    text-align: left;
+    margin-bottom: 10px;
+    break-inside: avoid;
+    font-family: EB Garamond;
+    font-weight: 400;
+    font-size: 17px;
+    }
+
+    h3{
+    font-family: EB Garamond;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    }
+      
+/*climate change poster page*/
+
+    .poster{
+    max-width: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .designs{
+    width: 100%;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    margin-top:30px;        
+    }
+
+.newsletter{
+    max-width: 700px;
+    margin: auto;
+    margin-bottom:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.description {
+    margin-bottom: 40px;
+    padding:0px;
+    text-align: justify;
+    font-family: EB garamond;
+    font-size; 17px;
+}
+
+
+/*contact page*/
+
+
+
+.contact-form {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: grid;
+    gap: 15px;
+}
+
+label {
+    font-weight: bold;
+    font-family: Outfit;
+    font-style: italic;
+    font-size: 18px;
+    color: #4882D8;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #4882D8;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #ffc0dc;
+    color: white;
+    font-family: EB Garamond;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4882D8;
+}
+
+.contact-info {
+    max-width: 600px;
+    margin: 30px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact{
+    color: black;
+    margin:auto;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+/* Media Query for Responsive Design */
+        @media only screen and (max-width: 768px) {
+            
+            .logo {
+                display:block;
+                max-width: 100px;
+                margin-left: 20px;
+            }
+            
+            .nav-logo{
+                display:none;
+            }
+
+            header {
+                padding: 20px;
+            }
+            
+            nav{
+                display: flex;
+                flex-direction: column;
+                margin-right:0px;
+                text-align: center;
+            }
+            nav a {
+                padding: 6px 20px;
+                font-size: 24px;
+
+            }
+
+            .hero {
+                padding: 100px 20px;
+            }
+            
+            .hero h1 {
+                font-size:2em;
+            }
+            
+            .product div {
+                flex: 1 0 30%;
+            }
+    
+  /* Stories css */  
+            
+            .container {
+            width: 100%;
+            max-width: 350px;
+            margin: 0 auto;
+            margin-top: 30px;
+            padding: 20px;
+            }
+            
+            .stories-header{
+            text-align: left;
+            margin-bottom: 10px;
+            margin-top: 30px;
+            font-size: 20px;
+            }
+            .columns-stories{
+            column-count: 1;
+            column-gap: 15px;
+            margin-bottom: 20px;
+            }
+
+            .columns-stories p{
+            text-align: left;
+            margin-bottom: 10px;
+            break-inside: avoid;
+            font-family: Cormorant Garamond;
+            font-weight: 500;
+            font-size: 17px;
+            }
+    
+           h3{
+            font-family: EB Garamond;
+            font-style: italic;
+            font-size: 18px;
+            font-weight: 500;
+            padding: 0px;
+            margin-top: 0px;
+            margin-bottom: 20px;
+            }
+
+            
+            h2{
+            font-family: EB Garamond;
+            font-style: italic;
+            font-size: 24px;
+            font-weight: 500;
+            }
+            
+            
+            /*climate change poster page*/
+
+    .poster{
+    width:350px;
+    max-width: 350px;
+    margin:auto;
+    justify-content: center;
+    align-items: center;
+    }
+    .designs{
+    width: 100%;
+    max-width: 350px;
+    margin: auto;
+    padding: 20px;
+    margin-top:30px;        
+    }
+
+            .newsletter{
+    max-width: 350px;
+    margin: auto;
+    margin-bottom:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+            }
+
+
+            
+            }
